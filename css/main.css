@@ -68,6 +68,7 @@ nav ul li:nth-child(n+4) > a{
 
 }
 
+/*Styling the sign in button*/
 nav ul li:nth-child(5){
 	margin-left: 20px;
 	height: 16px;
@@ -77,9 +78,11 @@ nav ul li:nth-child(5){
 	border-radius: 3px;
 }
 
+/*Styling the sign in page on hover*/
 nav ul li:nth-child(5):hover{
 	box-shadow: 0px 2px 5px -2px gray;
 }
+
 #app{
 	margin-bottom: -9px;
 	padding-left: 20px;
@@ -117,6 +120,7 @@ nav ul li:nth-child(5):hover{
 	color: gray;
 }
 
+/*styling the Long search Textfield*/
 input[type="text"]{
 	width:556px;
 	height: 28px;
@@ -138,8 +142,7 @@ input:focus{
 	
 }
 
-
-
+/*Styling the two center buttons*/
 input[type="submit"]{
 	margin-top: 15px;
 	margin-left: 6px;
@@ -147,12 +150,14 @@ input[type="submit"]{
 	font-size: 8pt;
 	font-weight: bold;
 }
-
+ 
+ /*Giving the textfield opacity*/
 input[value]{
 	opacity: .7;
 
 }
 
+/*Decreasing Opacity on hover*/
 input[type="submit"]:hover{
 	opacity: .9;
 	box-shadow: 0px 2px 5px -2px gray;
@@ -182,6 +187,7 @@ span{
   FOOTR
 *******************************/
 
+/*Footer the Flex Conatainer with two flex items*/
 footer{
 	width: 100%;
 	display: -webkit-flex;
@@ -208,11 +214,13 @@ footer ul li a:hover{
 	text-decoration: underline;
 }
 
+/*flex item 1*/
 #col-B{
 	padding-top: 10px;
 	padding-right: 25px;
 }
 
+/*flex item 2*/
 #col-A{
 	padding-top: 10px;
 	padding-left: 25px;
