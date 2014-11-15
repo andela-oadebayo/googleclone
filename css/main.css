@@ -134,7 +134,7 @@ input:hover{
 
 input:focus{
 	outline: none;
-	border: 1px solid steelblue;
+	border: 1px solid #4285f4;
 	
 }
 
@@ -142,6 +142,7 @@ input:focus{
 
 input[type="submit"]{
 	margin-top: 15px;
+	margin-left: 6px;
 	padding: 5px;
 	font-size: 8pt;
 	font-weight: bold;
@@ -182,6 +183,7 @@ span{
 *******************************/
 
 footer{
+	width: 100%;
 	display: -webkit-flex;
 	-webkit-justify-content: space-between;
 	background: #f2f2f2;
